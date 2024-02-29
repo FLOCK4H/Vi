@@ -4,10 +4,6 @@ from PySide6.QtWidgets import *
 import sys
 from PySide6.QtSvgWidgets import *
 import ctypes
-import cv2
-import numpy as np
-import pygetwindow as gw
-from mss import mss
 import time
 from pynput import keyboard
 import subprocess
