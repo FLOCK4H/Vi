@@ -209,6 +209,8 @@ class VideoThread(QThread):
         self.notify_show_signal.emit("show", "started")
         self.is_recording = True
         self.date = time.strftime("%d_%m-%H_%M_%S")
+        if not os.path.exists("videos"):
+            os.system("mkdir videos")
         output_file = f"videos/capture_{self.date}.mp4"
         ffmpeg_path = input("Enter path to ffmpeg.exe binary (modify source code to include permanent path): ") # To make the app run please install ffmpeg and point here to its exe
         screen_size = QApplication.primaryScreen().geometry()
