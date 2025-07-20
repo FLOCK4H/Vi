@@ -1,4 +1,8 @@
-# Vi
+# [SHOWCASE] Vi
+
+> [!IMPORTANT]
+> Due to a lack of external interest in the software, this project hasn't been updated in a long time. It now serves as a showcase of my experience.
+
 Uses ffmpeg with hevc_nvenc for NVIDIA GPU Acceleration
 
 # Setup
